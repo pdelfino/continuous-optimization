@@ -1,0 +1,6 @@
+Fazendo os exemplos do livro. Com a=2,5,10,14 são 2 primos. E com a=19 são 5 primos, respectivamente: 
+[1093, 3511]
+[20771, 40487]
+[3, 487]
+[29, 353]
+[3, 7, 13, 43, 137]

@@ -1,0 +1,15 @@
+Par de inteiros:   1234 54
+exemplo do livro:  mdc: 2, alpha: -7, beta: 160
+
+Par de inteiros:   14 35
+mdc: 7, alpha: -2, beta: 1
+
+Par de inteiros:   252 180
+mdc: 36, alpha: -2, beta: 3
+
+Par de inteiros:   6643 2873
+mdc: 13, alpha: -16, beta: 37
+
+Par de inteiros:   272828282 3242
+mdc: 2, alpha: 697, beta: -58655556
+

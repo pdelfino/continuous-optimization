@@ -1,0 +1,7 @@
+Total de duplas de inteiros a serem avaliados: 10| Proporção co-primos: 0.3333333333333333
+Total de duplas de inteiros a serem avaliados: 100| Proporção co-primos: 0.5656565656565656
+Total de duplas de inteiros a serem avaliados: 1000| Proporção co-primos: 0.5885885885885885
+Total de duplas de inteiros a serem avaliados: 10000| Proporção co-primos: 0.603060306030603
+Total de duplas de inteiros a serem avaliados: 100000| Proporção co-primos: 0.6066560665606656
+Total de duplas de inteiros a serem avaliados: 1000000| Proporção co-primos: 0.6083026083026083
+Total de duplas de inteiros a serem avaliados: 10000000| Proporção co-primos: 0.6079405607940561

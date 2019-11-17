@@ -1,0 +1,4 @@
+base:  2 , teste:  2047
+base:  3 , teste:  75
+base:  5 , teste:  247
+base:  7 , teste:  25
