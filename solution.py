@@ -1,31 +1,27 @@
+import numpy
 
-x_initial = 3 # initial position for x is the point (3,0)
+n = 2 # the matrix is 2x2
 
-learning_rate = 0.01 # on the classical notation, the learning rate is the Mu parameter
+Q= [[1, 0],[0,1]] # identity matrix, which is a squared definite positive matrix
 
-tolerance = 0.000001 # tolerance definies when the results have finally converged
+b = [[2], [2]] # by the problem statement, this is an arbitrary value
 
-previous_step_size = 1 #
-
-max_iterations = 10000 # parallelel to tolerance, max_iterations definies a maximum number of iterations
-
-iterations_num = 0 # count the number of iterations
-
-###
-# usando o exemplo da derivada de f(x)= (x-3)^2
-def gradient_function(x):
-    return 2*(x-3)
-
-while previous_step_size > tolerance or iterations_num < max_iterations:
-
-    prev_x = x_initial #Store current x value in prev_x
+def problem_function(x):
     
-    x_initial = x_initial - learning_rate * gradient_function(prev_x) #Grad descent
-    
-    previous_step_size = abs(x_initial - prev_x) #Change in x
-    
-    iterations_num = iterations_num+1 #iteration count
-    
-    print("Iteration",iterations_num,"\nX value is",x_initial) #Print iterations
-    
-print("The local minimum occurs at", x_initial)
+    x_transpose = numpy.transpose(x)
+
+    partial_first = numpy.matmul(x_transpose, Q)
+    #print (partial_first)
+    partial_first = numpy.matmul(partial_first,x)
+    #print (partial_first)
+    partial_first = (1/2)*partial_first
+    partial_second = numpy.matmul(x_transpose,b)
+    #print (partial_second)
+    total = partial_first + partial_second
+
+    return total
+
+for i in range(1,10):
+    print (problem_function([i, i]))
+
+
