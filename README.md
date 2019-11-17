@@ -11,7 +11,7 @@
 
 ### Problem statement
 
-![](https://github.com/pdelfino/stochastic-process/blob/master/enunciado.jpg)
+![](https://github.com/pdelfino/continuous-optimization/blob/master/enunciado.JPG)
 
 ### Solution
 
