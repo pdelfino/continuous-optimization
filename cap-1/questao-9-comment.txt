@@ -1,6 +1,0 @@
-Resultado teórico: 6/(pi^2)
-
-Aproximadamente: 0.60792710185
-
-O experimento computacional mais robusto, com 1000000 pares de número
-como entrada está dando: 0.6079713607971361

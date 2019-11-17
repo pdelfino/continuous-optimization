@@ -1,6 +1,0 @@
-Os dois números são:  [1093, 3511]
-Teste de Sanidade:  True
-
-curiosamente, o resultado não muda para r=5000 ou 4=50000
-
-para r=50000 o código demora um pouco pela forma como implementei o algoritmo de eratóstenes
