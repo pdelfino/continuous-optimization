@@ -78,3 +78,7 @@ def stochastic_grad(Q, b, x_initial, tolerance):
 
 print ("Número de passos do gradiente clássico:",(classic_grad(Q,b,x_initial,tolerance))[1])
 print ("Número de passos do gradiente estocástico:",(stochastic_grad(Q,b,x_initial,tolerance))[1])
+
+
+for i in range(1,101):
+    print ("classic num. de passos:",(classic_grad(Q,b,x_initial,tolerance))[1],"| random num. de passos:", (stochastic_grad(Q,b,x_initial,tolerance))[1])
